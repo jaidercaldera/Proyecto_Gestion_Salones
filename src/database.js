@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 
 const { NOTES_APP_MONGODB_HOST, NOTES_APP_MONGODB_DATABASE } = process.env;
 
-const MONGODB_URI = 'mongodb+srv://usario:clave@cluster0.wtvf2.mongodb.net/DBmanglar?retryWrites=true&w=majority';
+const MONGODB_URI = 'mongodb+srv://jaider:QI12zclh9peT5YOd@cluster0.yc3hnat.mongodb.net/dbusuarios?retryWrites=true&w=majority';
 
 
 
