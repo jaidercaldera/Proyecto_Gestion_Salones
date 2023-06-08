@@ -38,6 +38,7 @@ app.use(session({
   resave: true,
   saveUninitialized: true
 }));
+app.use(body_parser.json());
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
